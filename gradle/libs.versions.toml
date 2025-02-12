@@ -14,7 +14,7 @@ junit = "4.13.2"
 junitVersion = "1.2.1"
 androidxTesting = "1.6.2"
 testingRules = "1.6.1"
-coreTesting = "1.1.1"
+coreTesting = "2.2.0"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
@@ -61,7 +61,7 @@ kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.re
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "androidxTesting" }
 androidx-test-rules = { group = "androidx.test", name = "rules", version.ref = "testingRules" }
-androidx-core-testing = { group = "android.arch.core", name = "core-testing", version.ref = "coreTesting" }
+androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTesting" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
