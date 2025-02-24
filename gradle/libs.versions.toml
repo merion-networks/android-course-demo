@@ -1,12 +1,12 @@
 [versions]
-ksp = "2.1.0-1.0.29"
+ksp = "2.1.10-1.0.29"
 agp = "8.7.3"
 minSdk = "26"
 compileSdk = "35"
 targetSdk = "35"
-kotlin = "2.1.0"
-coroutines = "1.9.0"
-serialization = "1.7.3"
+kotlin = "2.1.10"
+coroutines = "1.10.1"
+serialization = "1.8.0"
 dateTime = "0.6.1"
 desugar = "2.1.4"
 coreKtx = "1.15.0"
@@ -23,8 +23,7 @@ fragment = "1.8.6"
 constraintlayout = "2.2.0"
 lifecycleLivedataKtx = "2.8.7"
 lifecycleViewmodelKtx = "2.8.7"
-navigationFragmentKtx = "2.8.5"
-navigationUiKtx = "2.8.5"
+navigation = "2.8.7"
 lifecycle = "2.8.7"
 recyclerview = "1.4.0"
 composeBom = "2025.01.00"
@@ -32,7 +31,7 @@ activityCompose = "1.10.0"
 statemachine = "3.2.1"
 napier = "2.7.1"
 mockk = "1.13.13"
-jetbrainsKotlinJvm = "2.0.21"
+jetbrainsKotlinJvm = "2.1.0"
 ktor = "2.3.12"
 logback = "1.5.6"
 datastore = "1.1.2"
@@ -71,8 +70,8 @@ androidx-fragment = { group = "androidx.fragment", name = "fragment-ktx", versio
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
 androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
-androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
-androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
 androidx-lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycle" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
@@ -125,10 +124,12 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin"}
-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
 google-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+navigation-safeargs-kotlin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
+
 
