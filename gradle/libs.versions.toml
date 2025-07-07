@@ -116,6 +116,7 @@ javax-inject-annotations = { group = "javax.inject", name = "javax.inject", vers
 dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
 dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
 hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+hilt-core = { group = "com.google.dagger", name = "hilt-core", version.ref = "hilt" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-androidx = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltWork" }
 hilt-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hiltWork" }
