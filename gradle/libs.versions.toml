@@ -59,6 +59,8 @@ okhttp = "5.1.0"
 retrofit = "3.0.0"
 exposed = "1.0.0-rc-1"
 mockmp = "2.0.2"
+gmsPlugin = "4.4.4"
+firebaseBom = "34.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -164,6 +166,9 @@ exposed-dao = { module = "org.jetbrains.exposed:exposed-dao", version.ref = "exp
 exposed-kotlin-datetime = { module = "org.jetbrains.exposed:exposed-kotlin-datetime", version.ref = "exposed" }
 sqlite-jdbc = { module = "org.xerial:sqlite-jdbc", version.ref = "sqlite-jdbc" }
 kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -183,6 +188,7 @@ hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 navigation-safeargs-kotlin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
 protobuf = { id = "com.google.protobuf", version.ref = "protobufPlugin" }
 mockmp = { id = "org.kodein.mock.mockmp", version.ref = "mockmp" }
+gms = { id = "com.google.gms.google-services", version.ref = "gmsPlugin" }
 
 [bundles]
 exposed = [
