@@ -19,8 +19,7 @@ allprojects {
             freeCompilerArgs.addAll(listOf(
                 "-opt-in=kotlin.RequiresOptIn",
                 "-opt-in=kotlin.time.ExperimentalTime",
-                "-opt-in=kotlin.uuid.ExperimentalUuidApi",
-                "-Xcontext-receivers"
+                "-opt-in=kotlin.uuid.ExperimentalUuidApi"
             ))
         }
     }
