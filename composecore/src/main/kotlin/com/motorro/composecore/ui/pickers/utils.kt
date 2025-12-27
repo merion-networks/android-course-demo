@@ -1,10 +1,10 @@
 package com.motorro.composecore.ui.pickers
 
-import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toInstant
 import kotlinx.datetime.toLocalDateTime
+import kotlin.time.Instant
 
 /**
  * Epoch milliseconds as kotlin local date time

@@ -9,10 +9,10 @@ import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import com.motorro.composecore.R
-import kotlinx.datetime.Clock
 import kotlinx.datetime.LocalTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
+import kotlin.time.Clock
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
