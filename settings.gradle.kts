@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Android"
 include(":core")
+include(":composecore")
