@@ -9,12 +9,12 @@ rebase() {
 
 check() {
   echo Checking...
-  ./gradlew testDebugUnitTest --rerun-tasks
+  ./gradlew testDebugUnitTest --no-daemon --rerun-tasks
 }
 
 assemble() {
   echo Assembling Debug...
-  ./gradlew assembleDebug --rerun-tasks
+  ./gradlew assembleDebug --no-daemon --rerun-tasks
 }
 
 webinars=(
