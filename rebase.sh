@@ -89,6 +89,8 @@ declare -a practice=(
   project
 )
 
+git checkout master
+
 echo "===================="
 echo "=     Webinars     ="
 echo "===================="
